@@ -1,0 +1,19 @@
+{
+  "name": "expressjs-172",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app.js"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body": "^5.1.0",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  }
+}
