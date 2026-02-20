@@ -3,6 +3,6 @@ const router = express.Router();
 const tagsController = require('../controllers/tagsController');
 
 router.get('/', tagsController.getTags);
-// Add other routes related to tags
+//router.post('/:id/click', tagsController.incrementTagCount);
 
 module.exports = router;
